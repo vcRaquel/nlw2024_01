@@ -33,6 +33,7 @@ public class QuestionController {
     static QuestionResultDTO mapQuestionToDTO(QuestionEntity question){
         var questionResultDTO = QuestionResultDTO.builder()
             .id(question.getId())
+            .technology(question.getTechnology())
             .description(question.getDescription()).build();
 
         List<AlternativesResultDTO> alternativesResultDTOs = question.getAlternatives()
