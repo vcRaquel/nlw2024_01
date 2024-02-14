@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.raquelleao.certification_nlw.modules.questions.QuestionEntity;
 import br.com.raquelleao.certification_nlw.modules.questions.dto.AlternativesResultDTO;
 import br.com.raquelleao.certification_nlw.modules.questions.dto.QuestionResultDTO;
 import br.com.raquelleao.certification_nlw.modules.questions.entities.AlternativesEntity;
+import br.com.raquelleao.certification_nlw.modules.questions.entities.QuestionEntity;
 import br.com.raquelleao.certification_nlw.modules.questions.repositories.QuestionRepository;
 
 @RestController

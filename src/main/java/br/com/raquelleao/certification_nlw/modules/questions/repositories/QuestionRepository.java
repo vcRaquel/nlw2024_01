@@ -5,7 +5,7 @@ import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.com.raquelleao.certification_nlw.modules.questions.QuestionEntity;
+import br.com.raquelleao.certification_nlw.modules.questions.entities.QuestionEntity;
 
 public interface QuestionRepository extends JpaRepository<QuestionEntity, UUID>{
     
